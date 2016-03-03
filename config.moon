@@ -2,7 +2,7 @@ import config from require "lazuli.config"
 
 
 config {"development","test","production"},->
-  set "appname", "L0G1N.de"
+  set "appname", "L0G1N"
 
 config {"development","test"}, ->
   postgres ->
